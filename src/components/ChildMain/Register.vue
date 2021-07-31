@@ -1,10 +1,10 @@
 <template>
   <div class="main">
     <div class="row">
-      <div class="col-6">
+      <div class="col-6 col__logo">
         <img src="../../assets/icon/icon-minion.png" alt="" />
       </div>
-      <div class="col-6">
+      <div class="col-6 col__register">
         <div class="title">Stay in the Know!</div>
         <div class="title__child">Don't get left behind!</div>
         <input
@@ -128,5 +128,28 @@ select:focus {
 .btn-outline-primary:hover {
   background-color: #2699fb;
   color: #fff;
+}
+
+@media only screen and (max-width: 430px) {
+  .row {
+    padding: 0;
+    padding-top: 120px;
+    display: flex;
+  }
+  .col__logo {
+    display: none;
+  }
+  .col__register {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 60px;
+  }
+  .form-check {
+    font-size: 12px;
+  }
+  .btn-outline-primary {
+    padding: 0.25rem;
+  }
 }
 </style>

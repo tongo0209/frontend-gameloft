@@ -38,4 +38,9 @@ export default {};
   align-items: center;
   padding: 0 80px;
 }
+@media only screen and (max-width: 430px) {
+  .navbar__header {
+    padding: 0;
+  }
+}
 </style>

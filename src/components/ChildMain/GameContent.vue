@@ -1,29 +1,30 @@
 <template>
   <div class="main">
-    <div class="title">Special Events & Promotional</div>
+    <div class="title">Exclusive Game Content</div>
     <div class="title__child">
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident
       aliquid quisquam doloremque modi sapiente! Ex obcaecati soluta assumenda
       ratione ad fugiat enim autem aliquid,
     </div>
-    <SliderEvent />
+    <SliderContent />
   </div>
 </template>
 
 <script>
-import SliderEvent from "./SliderEvent.vue";
+import SliderContent from "./SliderContent.vue";
 export default {
   components: {
-    SliderEvent,
+    SliderContent,
   },
 };
 </script>
 
 <style scoped>
 .main {
-  background-color: #d8edff;
+  background-color: #fff;
   height: 100vh;
-  padding: 80px 0;
+  padding: 200px 0;
+  padding-bottom: 80px;
 }
 .title {
   text-transform: uppercase;
@@ -39,6 +40,6 @@ export default {
 .title__child {
   font-size: 15px;
   font-weight: 300;
-  margin-bottom: 1rem;
+  margin-bottom: 5rem;
 }
 </style>

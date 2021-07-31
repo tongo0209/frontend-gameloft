@@ -81,7 +81,6 @@ export default {};
   background-repeat: no-repeat;
   background-position: 50%;
 }
-
 .title {
   padding-left: 528px;
   padding-top: 34.5rem;
@@ -182,5 +181,77 @@ export default {};
 }
 .downloading__child {
   cursor: pointer;
+}
+
+@media only screen and (max-width: 430px) {
+  .hotposter {
+    background-size: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-position-x: 50%;
+    background-position-y: 20%;
+  }
+  .title {
+    padding-left: 40px;
+    padding-top: 25rem;
+  }
+  .title h1 {
+    font-size: 2rem;
+    width: 50%;
+  }
+  .title__rating {
+    font-size: 12px;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  .star-rating {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    flex-direction: row-reverse;
+    position: relative;
+  }
+  .star-rating > label {
+    width: 18px;
+    height: 18px;
+  }
+  .title__child {
+    width: 85%;
+    font-size: 12px;
+    margin-bottom: 0;
+    height: 50px;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    display: -webkit-box;
+  }
+  .icon__mxh {
+    margin-right: 15px;
+    margin-top: -2.5rem;
+  }
+  .container-fluid {
+    display: flex;
+    padding: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 2rem;
+  }
+  .icon {
+    margin-bottom: 1rem;
+  }
+  .icon img {
+    height: 50px;
+    width: 180px;
+    margin: 0;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+  }
+  .dowloading__title {
+    margin-top: 1rem;
+    font-size: 25px;
+  }
 }
 </style>

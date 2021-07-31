@@ -5,6 +5,7 @@
     <Register />
     <GameCommunityHub />
     <SpecialEvent />
+    <GameContent />
     <Footer />
   </div>
 </template>
@@ -15,6 +16,7 @@ import Hotposter from "./components/ChildMain/Hotposter.vue";
 import Register from "./components/ChildMain/Register.vue";
 import GameCommunityHub from "./components/ChildMain/GameCommunityHub.vue";
 import SpecialEvent from "./components/ChildMain/SpecialEvent.vue";
+import GameContent from "./components/ChildMain/GameContent.vue";
 import Footer from "./components/Footer.vue";
 export default {
   name: "App",
@@ -24,6 +26,7 @@ export default {
     Register,
     GameCommunityHub,
     SpecialEvent,
+    GameContent,
     Footer,
   },
 };
@@ -31,4 +34,5 @@ export default {
 
 <style>
 @import "./assets/css/style.css";
+@import "./assets/css/responsive.css";
 </style>
