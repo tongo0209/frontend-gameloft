@@ -275,8 +275,11 @@ export default {};
   }
   .dowloading__title {
     margin-top: 1rem;
-    font-size: 25px;
+    font-size: 13px;
     width: 100%;
+  }
+  .icon img {
+    height: 40px;
   }
 }
 </style>
