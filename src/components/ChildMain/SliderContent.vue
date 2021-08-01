@@ -232,7 +232,7 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 5rem;
+  margin-top: 2rem;
 }
 .navigation-wrapper {
   position: relative;
@@ -265,20 +265,6 @@ export default {
   font-weight: 500;
   color: #2699fb;
   margin: 0 1rem;
-}
-
-@media only screen and (max-width: 430px) {
-  .keen-slider__slide {
-    max-width: 70% !important;
-    min-width: 70% !important;
-  }
-  .number-slide1 {
-    width: 300px;
-    height: 180px;
-  }
-  .arrow__center {
-    margin-top: 2rem;
-  }
 }
 </style>
 

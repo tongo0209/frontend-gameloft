@@ -87,7 +87,7 @@ export default {};
 }
 .title {
   padding-left: 528px;
-  padding-top: 30rem;
+  padding-top: 32rem;
 }
 .downloading {
   background-color: rgba(255, 255, 255, 0.6);

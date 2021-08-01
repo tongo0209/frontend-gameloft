@@ -40,7 +40,7 @@ export default {
 .title__child {
   font-size: 15px;
   font-weight: 300;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
 }
 
 @media only screen and (max-width: 430px) {
