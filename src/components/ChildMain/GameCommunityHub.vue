@@ -237,8 +237,8 @@ export default {
 }
 .top {
   padding: 0;
-  padding-left: 328px;
-  padding-right: 150px;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 .title,
 .title__child {
