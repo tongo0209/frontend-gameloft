@@ -252,7 +252,7 @@ export default {
   font-weight: 500;
 }
 .number-slide1 {
-  height: 380px;
+  height: 350px;
   margin: 0 1rem;
   width: 330px;
   background-color: #d5ecff;

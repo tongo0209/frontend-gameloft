@@ -76,14 +76,18 @@ export default {};
 .hotposter {
   width: 100%;
   height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background-color: #2699fb;
   background-image: url(../../assets/icon/icon-hotposter.png);
   background-repeat: no-repeat;
+  background-size: 200px;
   background-position: 50%;
 }
 .title {
   padding-left: 528px;
-  padding-top: 34.5rem;
+  padding-top: 30rem;
 }
 .downloading {
   background-color: rgba(255, 255, 255, 0.6);
@@ -119,7 +123,7 @@ export default {};
 }
 .title h1 {
   text-transform: uppercase;
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 700;
   color: #fff;
 }
@@ -135,10 +139,9 @@ export default {};
 .title__child {
   width: 50%;
   text-align: justify;
-  font-size: 20px;
+  font-size: 15px;
   color: #fff;
   font-weight: 500;
-  margin-bottom: 1rem;
 }
 .star-rating {
   display: flex;
@@ -185,10 +188,8 @@ export default {};
 
 @media only screen and (max-width: 430px) {
   .hotposter {
+    height: 95vh;
     background-size: 150px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     background-position-x: 50%;
     background-position-y: 20%;
   }

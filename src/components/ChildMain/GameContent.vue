@@ -42,4 +42,32 @@ export default {
   font-weight: 300;
   margin-bottom: 5rem;
 }
+
+@media only screen and (max-width: 430px) {
+  .main {
+    height: 60vh;
+    padding: 30px 0;
+  }
+  .title {
+    text-transform: capitalize;
+  }
+  .title,
+  .title__child {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    color: #2699fb;
+    font-weight: 700;
+  }
+  .title__child {
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+    height: 60px;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    display: -webkit-box;
+  }
+}
 </style>

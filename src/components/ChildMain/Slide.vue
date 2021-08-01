@@ -174,6 +174,26 @@ img:hover {
   fill: #d5ecff;
   background-color: transparent;
 }
+
+@media only screen and (max-width: 430px) {
+  .short__title {
+    font-size: 10px;
+    margin-left: 0;
+  }
+  img {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 50%;
+  }
+  .arrow {
+    width: 40px;
+    height: 40px;
+  }
+  .keen-slider {
+    padding-left: 2rem;
+  }
+}
 </style>
 
 

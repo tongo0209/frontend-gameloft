@@ -41,4 +41,26 @@ export default {
   font-weight: 300;
   margin-bottom: 1rem;
 }
+
+@media only screen and (max-width: 430px) {
+  .main {
+    padding: 20px 20px;
+  }
+  .title,
+  .title__child {
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 20px;
+    width: 50%;
+    text-transform: capitalize;
+  }
+  .title__child {
+    font-size: 15px;
+    width: 100%;
+    height: 60px;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    display: -webkit-box;
+  }
+}
 </style>

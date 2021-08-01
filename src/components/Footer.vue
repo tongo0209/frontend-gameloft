@@ -1,6 +1,23 @@
 <template>
   <div class="main">
     <div class="footer">
+      <div class="footer__child icon__follow--min">
+        <span class="icon__title">Follow us</span>
+        <div class="group__share">
+          <a href="#"
+            ><img class="mxh" src="../assets/icon/facebook-icon.png" alt="logo"
+          /></a>
+          <a href="#"
+            ><img class="mxh" src="../assets/icon/linkedin.png" alt="logo"
+          /></a>
+          <a href="#"
+            ><img class="mxh" src="../assets/icon/twitter.png" alt="logo"
+          /></a>
+          <a href="#"
+            ><img class="mxh" src="../assets/icon/youtube.png" alt="logo"
+          /></a>
+        </div>
+      </div>
       <div class="row">
         <div class="col-9">
           <div class="footer__main">
@@ -11,7 +28,7 @@
                   src="../assets/logo/logo-white.png"
                   alt="logo"
               /></a>
-              <div class="footer__child">
+              <div class="footer__child icon__follow">
                 <span class="icon__title">Follow us</span>
                 <div class="group__share">
                   <a href="#"
@@ -90,6 +107,9 @@ export default {};
 </script>
 
 <style scoped>
+.icon__follow--min {
+  display: none;
+}
 .main {
   background-color: #2699fb;
   height: 100vh;
@@ -195,5 +215,82 @@ select:hover {
   width: 50%;
   font-weight: 300;
   color: #fff;
+}
+
+@media only screen and (max-width: 430px) {
+  .main {
+    height: 90vh;
+  }
+  .footer {
+    padding: 0;
+  }
+  select {
+    display: none;
+  }
+  .col-9 {
+    width: 100%;
+    position: relative;
+  }
+  .footer__child {
+    text-align: center;
+    width: 100%;
+    margin-top: 0;
+  }
+  .icon__follow {
+    display: none;
+  }
+  .col-3 {
+    width: 100%;
+    display: flex;
+    margin: 0 20px;
+  }
+  .visit {
+    font-weight: 600;
+    width: 50%;
+    font-size: 15px;
+    margin-top: 0;
+  }
+  .visit ul li,
+  .legal ul li {
+    margin: 1rem 0;
+  }
+  .visit h4,
+  .legal h4 {
+    display: none;
+  }
+  .legal {
+    width: 50%;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .icon__follow--min {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin-top: 0;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+  }
+  .icon__follow--min .icon__title {
+    color: #2699fb;
+    margin-bottom: 0.5rem;
+    font-size: 15px;
+    padding-bottom: 0;
+  }
+  .icon__follow--min .mxh {
+    width: 32px;
+    height: 32px;
+    margin-right: 1rem;
+  }
+  .copyright {
+    border-top: 0;
+    height: 80px;
+  }
+  .content {
+    margin-top: -3rem;
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+    font-size: 10px;
+  }
 }
 </style>
