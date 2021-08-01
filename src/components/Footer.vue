@@ -287,7 +287,6 @@ select:hover {
     height: 80px;
   }
   .content {
-    margin-top: -3rem;
     width: 100%;
     padding: 0 20px;
     text-align: center;
