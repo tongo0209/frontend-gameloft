@@ -110,6 +110,9 @@ export default {};
 .icon__follow--min {
   display: none;
 }
+.row {
+  margin: 0;
+}
 .main {
   background-color: #2699fb;
   height: 100vh;
@@ -243,7 +246,7 @@ select:hover {
   .col-3 {
     width: 100%;
     display: flex;
-    margin: 0 20px;
+    padding: 0 20px;
   }
   .visit {
     font-weight: 600;

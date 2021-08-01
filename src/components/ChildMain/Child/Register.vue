@@ -32,7 +32,7 @@
             class="form-check-input"
             type="checkbox"
             value=""
-            id="flexCheckDefault"
+            id="flexCheck"
           />
           <label class="form-check-label" for="flexCheckDefault">
             By signing up, I confirm that I am 13 years old or older. I agree to
@@ -72,6 +72,7 @@ export default {};
   padding-right: 100px;
   padding-top: 200px;
   display: flex;
+  margin: 0;
 }
 .title {
   font-size: 28px;

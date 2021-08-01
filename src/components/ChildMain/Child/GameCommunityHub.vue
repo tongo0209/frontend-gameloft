@@ -281,6 +281,7 @@ export default {
   font-size: 15px;
   line-height: 16px;
   color: #2699fb;
+  outline: none;
   background-color: transparent;
   background-image: url(../../../assets/icon/Search.png);
   background-repeat: no-repeat;

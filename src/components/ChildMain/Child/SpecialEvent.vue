@@ -6,7 +6,7 @@
       aliquid quisquam doloremque modi sapiente! Ex obcaecati soluta assumenda
       ratione ad fugiat enim autem aliquid,
     </div>
-    <SliderEvent />
+    <SliderEvent style="display: none" />
   </div>
 </template>
 

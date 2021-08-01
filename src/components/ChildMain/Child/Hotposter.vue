@@ -112,15 +112,18 @@ export default {};
 .support {
   background-color: #fff;
   border-radius: 50%;
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 5px;
   border: 0;
 }
 .icon__mxh .share:hover,
 .mail:hover,
 .support:hover {
-  border: 3px solid #2698fba4;
+  border: 2px solid #2698fba4;
 }
 .container-fluid {
   display: flex;

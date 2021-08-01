@@ -211,13 +211,13 @@ img:hover {
 }
 
 .arrow--left {
-  left: 5px;
+  left: 0;
   background-color: transparent;
 }
 
 .arrow--right {
   left: auto;
-  right: 5px;
+  right: 0;
   background-color: transparent;
 }
 
