@@ -266,6 +266,13 @@ export default {
   color: #2699fb;
   margin: 0 1rem;
 }
+@media only screen and (max-width: 430px) {
+  .number-slide1 {
+    min-width: 70% !important;
+    max-width: 70% !important;
+    height: 200px;
+  }
+}
 </style>
 
 
