@@ -284,7 +284,7 @@ export default {
 .bottom {
   margin: 0 1rem;
   margin-bottom: 1rem;
-  font-size: 15px;
+  font-size: 70%;
   text-align: justify;
   font-weight: 400;
 }

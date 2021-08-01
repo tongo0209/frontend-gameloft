@@ -68,8 +68,9 @@ export default {};
   background-color: #d8edff;
 }
 .row {
-  padding: 0 528px;
-  padding-top: 250px;
+  padding-left: 328px;
+  padding-right: 100px;
+  padding-top: 200px;
   display: flex;
 }
 .title {
@@ -111,6 +112,9 @@ select:focus {
   color: #2699fb;
   font-size: 15px;
 }
+.col__register {
+  width: 40%;
+}
 .form-check input {
   border: 1px solid #2699fb;
   border-radius: 0;
@@ -129,7 +133,8 @@ select:focus {
   background-color: #2699fb;
   color: #fff;
 }
-
+@media only screen and (max-width: 1440px) {
+}
 @media only screen and (max-width: 430px) {
   .row {
     padding: 0;

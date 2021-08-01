@@ -86,7 +86,7 @@ export default {};
   background-position: 50%;
 }
 .title {
-  padding-left: 528px;
+  padding-left: 328px;
   padding-top: 32rem;
 }
 .downloading {
@@ -117,7 +117,8 @@ export default {};
 }
 .container-fluid {
   display: flex;
-  padding: 1rem 528px;
+  padding: 1rem 0;
+  padding-left: 328px;
   justify-content: space-between;
   align-items: center;
 }
@@ -176,6 +177,10 @@ export default {};
 .dowloading__title {
   color: #2699fb;
   font-weight: 700;
+  width: 30%;
+}
+.icon {
+  width: 70%;
 }
 .icon img {
   height: 40px;
@@ -185,7 +190,17 @@ export default {};
 .downloading__child {
   cursor: pointer;
 }
-
+@media only screen and (max-width: 1440px) {
+  .title h1 {
+    font-size: 2.5rem;
+  }
+  .title__child {
+    font-size: 14px;
+  }
+  .dowloading__title {
+    width: 30%;
+  }
+}
 @media only screen and (max-width: 430px) {
   .hotposter {
     height: 95vh;
@@ -195,7 +210,7 @@ export default {};
   }
   .title {
     padding-left: 40px;
-    padding-top: 20rem;
+    padding-top: 25rem;
   }
   .title h1 {
     font-size: 2rem;
@@ -241,6 +256,7 @@ export default {};
   }
   .icon {
     margin-bottom: 1rem;
+    width: 100%;
   }
   .icon img {
     height: 50px;
@@ -253,6 +269,7 @@ export default {};
   .dowloading__title {
     margin-top: 1rem;
     font-size: 25px;
+    width: 100%;
   }
 }
 </style>

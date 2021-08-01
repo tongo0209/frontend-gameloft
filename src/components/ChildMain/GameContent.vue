@@ -31,8 +31,8 @@ export default {
 }
 .title,
 .title__child {
-  padding-left: 528px;
-  padding-right: 528px;
+  padding-left: 328px;
+  padding-right: 150px;
   font-size: 35px;
   color: #2699fb;
   font-weight: 700;

@@ -129,6 +129,9 @@ export default {
   margin-left: 1rem;
   font-size: 15px;
 }
+.number-slide1 {
+  margin: 0;
+}
 .keen-slider {
   padding-left: 3rem;
   padding-right: 0rem;

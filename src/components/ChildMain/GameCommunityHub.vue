@@ -236,7 +236,9 @@ export default {
   padding: 65px 0;
 }
 .top {
-  padding: 0 528px;
+  padding: 0;
+  padding-left: 328px;
+  padding-right: 150px;
 }
 .title,
 .title__child {
@@ -327,8 +329,12 @@ export default {
   .top {
     padding: 0;
   }
+  .poster {
+    padding: 0 1rem;
+  }
   .title {
     font-size: 20px;
+    padding: 0 1rem;
   }
   .title__child {
     display: none;

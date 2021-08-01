@@ -118,11 +118,12 @@ export default {};
   justify-content: space-between;
 }
 .footer {
-  padding: 0 528px;
+  padding: 0;
+  padding-left: 328px;
+  padding-right: 200px;
 }
 .footer__main {
   display: flex;
-
   justify-content: space-between;
 }
 .footer__child {
@@ -212,7 +213,7 @@ select:hover {
 }
 .content {
   padding-top: 1rem;
-  width: 50%;
+  width: 70%;
   font-weight: 300;
   color: #fff;
 }
