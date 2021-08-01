@@ -8,7 +8,7 @@
             <div></div>
             <div class="share">
               <a href="#" download
-                ><img src="../../assets/icon/download.png" alt="logo"
+                ><img src="../../../assets/icon/download.png" alt="logo"
               /></a>
             </div>
           </div>
@@ -18,7 +18,7 @@
             <div></div>
             <div class="share">
               <a href="#" download
-                ><img src="../../assets/icon/download.png" alt="logo"
+                ><img src="../../../assets/icon/download.png" alt="logo"
               /></a>
             </div>
           </div>
@@ -28,7 +28,7 @@
             <div></div>
             <div class="share">
               <a href="#" download
-                ><img src="../../assets/icon/download.png" alt="logo"
+                ><img src="../../../assets/icon/download.png" alt="logo"
               /></a>
             </div>
           </div>
@@ -38,7 +38,7 @@
             <div></div>
             <div class="share">
               <a href="#" download
-                ><img src="../../assets/icon/download.png" alt="logo"
+                ><img src="../../../assets/icon/download.png" alt="logo"
               /></a>
             </div>
           </div>
@@ -48,7 +48,7 @@
             <div></div>
             <div class="share">
               <a href="#" download
-                ><img src="../../assets/icon/download.png" alt="logo"
+                ><img src="../../../assets/icon/download.png" alt="logo"
               /></a>
             </div>
           </div>
@@ -58,7 +58,7 @@
             <div></div>
             <div class="share">
               <a href="#" download
-                ><img src="../../assets/icon/download.png" alt="logo"
+                ><img src="../../../assets/icon/download.png" alt="logo"
               /></a>
             </div>
           </div>
@@ -68,7 +68,7 @@
             <div></div>
             <div class="share">
               <a href="#" download
-                ><img src="../../assets/icon/download.png" alt="logo"
+                ><img src="../../../assets/icon/download.png" alt="logo"
               /></a>
             </div>
           </div>
@@ -78,7 +78,7 @@
             <div></div>
             <div class="share">
               <a href="#" download
-                ><img src="../../assets/icon/download.png" alt="logo"
+                ><img src="../../../assets/icon/download.png" alt="logo"
               /></a>
             </div>
           </div>
@@ -88,7 +88,7 @@
             <div></div>
             <div class="share">
               <a href="#" download
-                ><img src="../../assets/icon/download.png" alt="logo"
+                ><img src="../../../assets/icon/download.png" alt="logo"
               /></a>
             </div>
           </div>
@@ -98,7 +98,7 @@
             <div></div>
             <div class="share">
               <a href="#" download
-                ><img src="../../assets/icon/download.png" alt="logo"
+                ><img src="../../../assets/icon/download.png" alt="logo"
               /></a>
             </div>
           </div>
@@ -108,7 +108,7 @@
             <div></div>
             <div class="share">
               <a href="#" download
-                ><img src="../../assets/icon/download.png" alt="logo"
+                ><img src="../../../assets/icon/download.png" alt="logo"
               /></a>
             </div>
           </div>
@@ -223,7 +223,7 @@ export default {
   margin: 0 1rem;
   width: 635px;
   background-color: #d5ecff;
-  background-image: url(../../assets/icon/icon-background-carousel.png);
+  background-image: url(../../../assets/icon/icon-background-carousel.png);
   background-repeat: no-repeat;
   background-position: 50%;
   display: flex;

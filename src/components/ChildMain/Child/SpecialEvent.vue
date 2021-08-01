@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import SliderEvent from "./SliderEvent.vue";
+import SliderEvent from "../Slider/SliderEvent.vue";
 export default {
   components: {
     SliderEvent,

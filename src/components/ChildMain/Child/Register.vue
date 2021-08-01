@@ -2,7 +2,7 @@
   <div class="main">
     <div class="row">
       <div class="col-6 col__logo">
-        <img src="../../assets/icon/icon-minion.png" alt="" />
+        <img src="../../../assets/icon/icon-minion.png" alt="" />
       </div>
       <div class="col-6 col__register">
         <div class="title">Stay in the Know!</div>

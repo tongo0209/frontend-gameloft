@@ -3,13 +3,13 @@
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <div class="navbar__header">
-          <a href="#"
+          <a href="#" target="_blank"
             ><img
               class="navbar__header--logo"
               src="../assets/logo/logo.png"
               alt="logo"
           /></a>
-          <a href="#"
+          <a href="#" target="_blank"
             ><img
               class="navbar__header--menu"
               src="../assets/icon/menu.png"

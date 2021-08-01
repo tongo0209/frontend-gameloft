@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import SliderContent from "./SliderContent.vue";
+import SliderContent from "../Slider/SliderContent.vue";
 export default {
   components: {
     SliderContent,

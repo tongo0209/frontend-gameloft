@@ -30,14 +30,18 @@
         </div>
         <div class="icon__mxh">
           <div class="share">
-            <a href="#"><img src="../../assets/icon/share.png" alt="logo" /></a>
+            <a href="#" target="_blank"
+              ><img src="../../../assets/icon/share.png" alt="logo"
+            /></a>
           </div>
           <div class="mail">
-            <a href="#"><img src="../../assets/icon/mail.png" alt="logo" /></a>
+            <a href="#" target="_blank"
+              ><img src="../../../assets/icon/mail.png" alt="logo"
+            /></a>
           </div>
           <div class="support">
-            <a href="#"
-              ><img src="../../assets/icon/support.png" alt="logo"
+            <a href="#" target="_blank"
+              ><img src="../../../assets/icon/support.png" alt="logo"
             /></a>
           </div>
         </div>
@@ -47,21 +51,24 @@
       <div class="container-fluid">
         <span class="dowloading__title">Download laster version</span>
         <div class="icon">
-          <img
-            class="downloading__child"
-            src="../../assets/icon/nintendo.png"
-            alt="logo"
-          />
-          <img
-            class="downloading__child"
-            src="../../assets/icon/microsoft.png"
-            alt="logo"
-          />
-          <img
-            class="downloading__child"
-            src="../../assets/icon/steam.png"
-            alt="logo"
-          />
+          <a href="#" target="_blank"
+            ><img
+              class="downloading__child"
+              src="../../../assets/icon/nintendo.png"
+              alt="logo"
+          /></a>
+          <a href="#" target="_blank"
+            ><img
+              class="downloading__child"
+              src="../../../assets/icon/microsoft.png"
+              alt="logo"
+          /></a>
+          <a href="#" target="_blank"
+            ><img
+              class="downloading__child"
+              src="../../../assets/icon/steam.png"
+              alt="logo"
+          /></a>
         </div>
       </div>
     </div>
@@ -80,7 +87,7 @@ export default {};
   flex-direction: column;
   justify-content: space-between;
   background-color: #2699fb;
-  background-image: url(../../assets/icon/icon-hotposter.png);
+  background-image: url(../../../assets/icon/icon-hotposter.png);
   background-repeat: no-repeat;
   background-size: 200px;
   background-position: 50%;

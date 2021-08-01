@@ -6,11 +6,11 @@
         <div class="keen-slider__slide number-slide1">
           <div class="top__icon">
             <a href="#"
-              ><img src="../../assets/icon/facebook.png" alt="logo"
+              ><img src="../../../assets/icon/facebook.png" alt="logo"
             /></a>
             <div class="share">
               <a href="#"
-                ><img src="../../assets/icon/share-black.png" alt="logo"
+                ><img src="../../../assets/icon/share-black.png" alt="logo"
               /></a>
             </div>
           </div>
@@ -23,11 +23,11 @@
         <div class="keen-slider__slide number-slide1">
           <div class="top__icon">
             <a href="#"
-              ><img src="../../assets/icon/facebook.png" alt="logo"
+              ><img src="../../../assets/icon/facebook.png" alt="logo"
             /></a>
             <div class="share">
               <a href="#"
-                ><img src="../../assets/icon/share-black.png" alt="logo"
+                ><img src="../../../assets/icon/share-black.png" alt="logo"
               /></a>
             </div>
           </div>
@@ -40,11 +40,11 @@
         <div class="keen-slider__slide number-slide1">
           <div class="top__icon">
             <a href="#"
-              ><img src="../../assets/icon/facebook.png" alt="logo"
+              ><img src="../../../assets/icon/facebook.png" alt="logo"
             /></a>
             <div class="share">
               <a href="#"
-                ><img src="../../assets/icon/share-black.png" alt="logo"
+                ><img src="../../../assets/icon/share-black.png" alt="logo"
               /></a>
             </div>
           </div>
@@ -57,11 +57,11 @@
         <div class="keen-slider__slide number-slide1">
           <div class="top__icon">
             <a href="#"
-              ><img src="../../assets/icon/facebook.png" alt="logo"
+              ><img src="../../../assets/icon/facebook.png" alt="logo"
             /></a>
             <div class="share">
               <a href="#"
-                ><img src="../../assets/icon/share-black.png" alt="logo"
+                ><img src="../../../assets/icon/share-black.png" alt="logo"
               /></a>
             </div>
           </div>
@@ -74,11 +74,11 @@
         <div class="keen-slider__slide number-slide1">
           <div class="top__icon">
             <a href="#"
-              ><img src="../../assets/icon/facebook.png" alt="logo"
+              ><img src="../../../assets/icon/facebook.png" alt="logo"
             /></a>
             <div class="share">
               <a href="#"
-                ><img src="../../assets/icon/share-black.png" alt="logo"
+                ><img src="../../../assets/icon/share-black.png" alt="logo"
               /></a>
             </div>
           </div>
@@ -91,11 +91,11 @@
         <div class="keen-slider__slide number-slide1">
           <div class="top__icon">
             <a href="#"
-              ><img src="../../assets/icon/facebook.png" alt="logo"
+              ><img src="../../../assets/icon/facebook.png" alt="logo"
             /></a>
             <div class="share">
               <a href="#"
-                ><img src="../../assets/icon/share-black.png" alt="logo"
+                ><img src="../../../assets/icon/share-black.png" alt="logo"
               /></a>
             </div>
           </div>
@@ -108,11 +108,11 @@
         <div class="keen-slider__slide number-slide1">
           <div class="top__icon">
             <a href="#"
-              ><img src="../../assets/icon/facebook.png" alt="logo"
+              ><img src="../../../assets/icon/facebook.png" alt="logo"
             /></a>
             <div class="share">
               <a href="#"
-                ><img src="../../assets/icon/share-black.png" alt="logo"
+                ><img src="../../../assets/icon/share-black.png" alt="logo"
               /></a>
             </div>
           </div>
@@ -125,11 +125,11 @@
         <div class="keen-slider__slide number-slide1">
           <div class="top__icon">
             <a href="#"
-              ><img src="../../assets/icon/facebook.png" alt="logo"
+              ><img src="../../../assets/icon/facebook.png" alt="logo"
             /></a>
             <div class="share">
               <a href="#"
-                ><img src="../../assets/icon/share-black.png" alt="logo"
+                ><img src="../../../assets/icon/share-black.png" alt="logo"
               /></a>
             </div>
           </div>
@@ -142,11 +142,11 @@
         <div class="keen-slider__slide number-slide1">
           <div class="top__icon">
             <a href="#"
-              ><img src="../../assets/icon/facebook.png" alt="logo"
+              ><img src="../../../assets/icon/facebook.png" alt="logo"
             /></a>
             <div class="share">
               <a href="#"
-                ><img src="../../assets/icon/share-black.png" alt="logo"
+                ><img src="../../../assets/icon/share-black.png" alt="logo"
               /></a>
             </div>
           </div>
@@ -159,11 +159,11 @@
         <div class="keen-slider__slide number-slide1">
           <div class="top__icon">
             <a href="#"
-              ><img src="../../assets/icon/facebook.png" alt="logo"
+              ><img src="../../../assets/icon/facebook.png" alt="logo"
             /></a>
             <div class="share">
               <a href="#"
-                ><img src="../../assets/icon/share-black.png" alt="logo"
+                ><img src="../../../assets/icon/share-black.png" alt="logo"
               /></a>
             </div>
           </div>
@@ -283,7 +283,7 @@ export default {
   margin: 0 1rem;
   width: 330px;
   background-color: #d5ecff;
-  background-image: url(../../assets/icon/icon-background-carousel.png);
+  background-image: url(../../../assets/icon/icon-background-carousel.png);
   background-repeat: no-repeat;
   background-position: 50%;
   display: flex;

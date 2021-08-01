@@ -4,63 +4,63 @@
     <div class="navigation-wrapper">
       <div ref="slider" class="keen-slider">
         <div class="keen-slider__slide number-slide1">
-          <img src="../../assets/carousel/Carousel-1.png" alt="" />
+          <img src="../../../assets/carousel/Carousel-1.png" alt="" />
           <div class="short__title">Short title</div>
         </div>
         <div class="keen-slider__slide number-slide2">
-          <img src="../../assets/carousel/Carousel-2.png" alt="" />
+          <img src="../../../assets/carousel/Carousel-2.png" alt="" />
           <div class="short__title">Short title</div>
         </div>
         <div class="keen-slider__slide number-slide3">
-          <img src="../../assets/carousel/Carousel-3.png" alt="" />
+          <img src="../../../assets/carousel/Carousel-3.png" alt="" />
           <div class="short__title">Short title</div>
         </div>
         <div class="keen-slider__slide number-slide4">
-          <img src="../../assets/carousel/Carousel-4.png" alt="" />
+          <img src="../../../assets/carousel/Carousel-4.png" alt="" />
           <div class="short__title">Short title</div>
         </div>
         <div class="keen-slider__slide number-slide5">
-          <img src="../../assets/carousel/Carousel-5.png" alt="" />
+          <img src="../../../assets/carousel/Carousel-5.png" alt="" />
           <div class="short__title">Short title</div>
         </div>
         <div class="keen-slider__slide number-slide6">
-          <img src="../../assets/carousel/Carousel-6.png" alt="" />
+          <img src="../../../assets/carousel/Carousel-6.png" alt="" />
           <div class="short__title">Short title</div>
         </div>
         <div class="keen-slider__slide number-slide7">
-          <img src="../../assets/carousel/Carousel-8.png" alt="" />
+          <img src="../../../assets/carousel/Carousel-8.png" alt="" />
           <div class="short__title">Short title</div>
         </div>
         <div class="keen-slider__slide number-slide7">
-          <img src="../../assets/carousel/Carousel-8.png" alt="" />
+          <img src="../../../assets/carousel/Carousel-8.png" alt="" />
           <div class="short__title">Short title</div>
         </div>
         <div class="keen-slider__slide number-slide7">
-          <img src="../../assets/carousel/Carousel-8.png" alt="" />
+          <img src="../../../assets/carousel/Carousel-8.png" alt="" />
           <div class="short__title">Short title</div>
         </div>
         <div class="keen-slider__slide number-slide7">
-          <img src="../../assets/carousel/Carousel-8.png" alt="" />
+          <img src="../../../assets/carousel/Carousel-8.png" alt="" />
           <div class="short__title">Short title</div>
         </div>
         <div class="keen-slider__slide number-slide6">
-          <img src="../../assets/carousel/Carousel-6.png" alt="" />
+          <img src="../../../assets/carousel/Carousel-6.png" alt="" />
           <div class="short__title">Short title</div>
         </div>
         <div class="keen-slider__slide number-slide7">
-          <img src="../../assets/carousel/Carousel-8.png" alt="" />
+          <img src="../../../assets/carousel/Carousel-8.png" alt="" />
           <div class="short__title">Short title</div>
         </div>
         <div class="keen-slider__slide number-slide7">
-          <img src="../../assets/carousel/Carousel-8.png" alt="" />
+          <img src="../../../assets/carousel/Carousel-8.png" alt="" />
           <div class="short__title">Short title</div>
         </div>
         <div class="keen-slider__slide number-slide7">
-          <img src="../../assets/carousel/Carousel-8.png" alt="" />
+          <img src="../../../assets/carousel/Carousel-8.png" alt="" />
           <div class="short__title">Short title</div>
         </div>
         <div class="keen-slider__slide number-slide7">
-          <img src="../../assets/carousel/Carousel-8.png" alt="" />
+          <img src="../../../assets/carousel/Carousel-8.png" alt="" />
           <div class="short__title">Short title</div>
         </div>
       </div>

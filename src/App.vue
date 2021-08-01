@@ -1,32 +1,20 @@
 <template>
   <div id="app">
     <Header />
-    <Hotposter />
-    <Register />
-    <GameCommunityHub />
-    <SpecialEvent />
-    <GameContent />
+    <Main />
     <Footer />
   </div>
 </template>
 
 <script>
 import Header from "./components/Header.vue";
-import Hotposter from "./components/ChildMain/Hotposter.vue";
-import Register from "./components/ChildMain/Register.vue";
-import GameCommunityHub from "./components/ChildMain/GameCommunityHub.vue";
-import SpecialEvent from "./components/ChildMain/SpecialEvent.vue";
-import GameContent from "./components/ChildMain/GameContent.vue";
+import Main from "./components/ChildMain/Main.vue";
 import Footer from "./components/Footer.vue";
 export default {
   name: "App",
   components: {
     Header,
-    Hotposter,
-    Register,
-    GameCommunityHub,
-    SpecialEvent,
-    GameContent,
+    Main,
     Footer,
   },
 };
