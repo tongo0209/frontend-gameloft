@@ -217,7 +217,7 @@ export default {};
   }
   .title {
     padding-left: 40px;
-    padding-top: 25rem;
+    padding-top: 22rem;
   }
   .title h1 {
     font-size: 2rem;
