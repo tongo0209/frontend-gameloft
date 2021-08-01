@@ -170,7 +170,34 @@ export default {
       slider: null,
     };
   },
+  methods: {
+    setPause(active) {
+      this.pause = active;
+      this.setInterval();
+    },
+    resetInterval() {
+      clearInterval(this.interval);
+    },
+    setInterval() {
+      this.resetInterval();
+      this.interval = setInterval(() => {
+        if (!this.pause) {
+          this.slider.next();
+        }
+      }, 2000);
+    },
+  },
   mounted() {
+    this.slider = new KeenSlider(this.$refs.slider, {
+      loop: true,
+      duration: 3000,
+      dragStart: () => {
+        this.setPause(true);
+      },
+      dragEnd: () => {
+        this.setPause(false);
+      },
+    });
     this.slider = new KeenSlider(this.$refs.slider, {
       initial: this.current,
       slidesPerView: 3,

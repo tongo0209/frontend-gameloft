@@ -43,6 +43,26 @@
           <img src="../../assets/carousel/Carousel-8.png" alt="" />
           <div class="short__title">Short title</div>
         </div>
+        <div class="keen-slider__slide number-slide6">
+          <img src="../../assets/carousel/Carousel-6.png" alt="" />
+          <div class="short__title">Short title</div>
+        </div>
+        <div class="keen-slider__slide number-slide7">
+          <img src="../../assets/carousel/Carousel-8.png" alt="" />
+          <div class="short__title">Short title</div>
+        </div>
+        <div class="keen-slider__slide number-slide7">
+          <img src="../../assets/carousel/Carousel-8.png" alt="" />
+          <div class="short__title">Short title</div>
+        </div>
+        <div class="keen-slider__slide number-slide7">
+          <img src="../../assets/carousel/Carousel-8.png" alt="" />
+          <div class="short__title">Short title</div>
+        </div>
+        <div class="keen-slider__slide number-slide7">
+          <img src="../../assets/carousel/Carousel-8.png" alt="" />
+          <div class="short__title">Short title</div>
+        </div>
       </div>
 
       <svg
@@ -104,7 +124,35 @@ export default {
       slider: null,
     };
   },
+  methods: {
+    setPause(active) {
+      this.pause = active;
+      this.setInterval();
+    },
+    resetInterval() {
+      clearInterval(this.interval);
+    },
+    setInterval() {
+      this.resetInterval();
+      this.interval = setInterval(() => {
+        if (!this.pause) {
+          this.slider.next();
+        }
+      }, 2000);
+    },
+  },
   mounted() {
+    this.slider = new KeenSlider(this.$refs.slider, {
+      loop: true,
+      duration: 3000,
+      dragStart: () => {
+        this.setPause(true);
+      },
+      dragEnd: () => {
+        this.setPause(false);
+      },
+    });
+    this.setInterval();
     this.slider = new KeenSlider(this.$refs.slider, {
       initial: this.current,
       slidesPerView: 5,
