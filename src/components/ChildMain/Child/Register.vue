@@ -34,7 +34,7 @@
             value=""
             id="flexCheck"
           />
-          <label class="form-check-label" for="flexCheckDefault">
+          <label class="form-check-label" for="flexCheck">
             By signing up, I confirm that I am 13 years old or older. I agree to
             the Gameloft Terms and Conditions
           </label>
