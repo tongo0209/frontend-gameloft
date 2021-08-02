@@ -155,9 +155,10 @@ export default {
   max-width: 300px !important;
 }
 .number-slide1:hover {
+  transition: min-width 0.3s ease, max-width 0.3s ease;
+  min-width: 330px !important;
+  max-width: 330px !important;
   cursor: pointer;
-  width: 220px;
-  height: 400px;
 }
 .main {
   display: flex;
@@ -278,6 +279,14 @@ button::after {
 @media only screen and (max-width: 430px) {
   .dots {
     display: none;
+  }
+  [class^="number-slide"],
+  [class*=" number-slide"] {
+    height: 350px;
+  }
+  .number-slide1 {
+    min-width: 250px !important;
+    max-width: 250px !important;
   }
 }
 </style>
