@@ -47,7 +47,6 @@ export default {
 @media only screen and (max-width: 430px) {
   .main {
     padding: 20px 20px;
-    height: 80vh;
   }
   .title,
   .title__child {
