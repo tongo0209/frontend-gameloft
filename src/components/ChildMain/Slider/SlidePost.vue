@@ -307,6 +307,10 @@ export default {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+  cursor: pointer;
+}
+.share:hover {
+  border: 2px solid #2698fb4b;
 }
 .bottom {
   margin: 0 1rem;
