@@ -1,10 +1,10 @@
 <template>
-  <div>
-    <Hotposter />
-    <Register />
-    <GameCommunityHub />
-    <SpecialEvent />
-    <GameContent />
+  <div class="section">
+    <Hotposter class="section__item" />
+    <Register class="section__item" />
+    <GameCommunityHub class="section__item" />
+    <SpecialEvent class="section__item" />
+    <GameContent class="section__item" />
   </div>
 </template>
 

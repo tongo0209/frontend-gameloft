@@ -3,30 +3,93 @@
   <div>
     <div class="navigation-wrapper">
       <div ref="slider" class="keen-slider">
-        <div class="keen-slider__slide number-slide1">1</div>
-        <div class="keen-slider__slide number-slide1">1</div>
-        <div class="keen-slider__slide number-slide1">1</div>
-        <div class="keen-slider__slide number-slide1">1</div>
-        <div class="keen-slider__slide number-slide1">1</div>
-        <div class="keen-slider__slide number-slide1">1</div>
-        <div class="keen-slider__slide number-slide1">1</div>
-        <div class="keen-slider__slide number-slide1">1</div>
-        <div class="keen-slider__slide number-slide1">1</div>
-        <div class="keen-slider__slide number-slide1">1</div>
-        <div class="keen-slider__slide number-slide1">1</div>
-        <div class="keen-slider__slide number-slide1">1</div>
-        <div class="keen-slider__slide number-slide1">1</div>
-        <div class="keen-slider__slide number-slide1">1</div>
-        <div class="keen-slider__slide number-slide1">1</div>
+        <div class="keen-slider__slide number-slide1">
+          <div class="main">
+            <div class="image">
+              <img src="../../../assets/icon/icon-hotposter.png" alt="" />
+            </div>
+            <div class="title">Short title here</div>
+          </div>
+        </div>
+        <div class="keen-slider__slide number-slide1">
+          <div class="main">
+            <div class="image">
+              <img src="../../../assets/icon/icon-hotposter.png" alt="" />
+            </div>
+            <div class="title">Short title here</div>
+          </div>
+        </div>
+        <div class="keen-slider__slide number-slide1">
+          <div class="main">
+            <div class="image">
+              <img src="../../../assets/icon/icon-hotposter.png" alt="" />
+            </div>
+            <div class="title">Short title here</div>
+          </div>
+        </div>
+        <div class="keen-slider__slide number-slide1">
+          <div class="main">
+            <div class="image">
+              <img src="../../../assets/icon/icon-hotposter.png" alt="" />
+            </div>
+            <div class="title">Short title here</div>
+          </div>
+        </div>
+        <div class="keen-slider__slide number-slide1">
+          <div class="main">
+            <div class="image">
+              <img src="../../../assets/icon/icon-hotposter.png" alt="" />
+            </div>
+            <div class="title">Short title here</div>
+          </div>
+        </div>
+        <div class="keen-slider__slide number-slide1">
+          <div class="main">
+            <div class="image">
+              <img src="../../../assets/icon/icon-hotposter.png" alt="" />
+            </div>
+            <div class="title">Short title here</div>
+          </div>
+        </div>
+        <div class="keen-slider__slide number-slide1">
+          <div class="main">
+            <div class="image">
+              <img src="../../../assets/icon/icon-hotposter.png" alt="" />
+            </div>
+            <div class="title">Short title here</div>
+          </div>
+        </div>
+        <div class="keen-slider__slide number-slide1">
+          <div class="main">
+            <div class="image">
+              <img src="../../../assets/icon/icon-hotposter.png" alt="" />
+            </div>
+            <div class="title">Short title here</div>
+          </div>
+        </div>
+        <div class="keen-slider__slide number-slide1">
+          <div class="main">
+            <div class="image">
+              <img src="../../../assets/icon/icon-hotposter.png" alt="" />
+            </div>
+            <div class="title">Short title here</div>
+          </div>
+        </div>
       </div>
     </div>
     <div v-if="slider" class="dots">
       <button
         v-for="val in dotHelper"
         @click="slider.moveToSlideRelative(val)"
-        :class="{ dot: true, active: current === val || current === val + 1 }"
+        :class="{
+          spin: true,
+          cirle: true,
+          active: current === val || current === val + 1,
+        }"
         :key="val"
-      ></button>
+      >
+        {{ val + 1 }}
+      </button>
     </div>
   </div>
 </template>
@@ -39,14 +102,9 @@ export default {
   name: "Slider",
   computed: {
     dotHelper() {
-      console.log(
-        [...Array(this.slider.details().size).keys()].filter(
-          (x, i) => i % 2 === 0
-        )
-      );
       return this.slider
         ? [...Array(this.slider.details().size).keys()].filter(
-            (x, i) => i % 2 === 0
+            (x, i) => i % 1 === 0
           )
         : [];
     },
@@ -87,20 +145,38 @@ export default {
 .number-slide1 {
   margin: 0 1.5rem;
   border-radius: 10px;
-  background: rgb(64, 175, 255);
   background: linear-gradient(
-    128deg,
-    rgba(64, 175, 255, 1) 0%,
-    rgba(63, 97, 255, 1) 100%
+    180deg,
+    rgba(36, 153, 251, 1) 0%,
+    rgba(36, 153, 251, 1) 50%,
+    rgba(0, 0, 0, 1) 100%
   );
-  width: 200px;
+  min-width: 300px !important;
+  max-width: 300px !important;
 }
 .number-slide1:hover {
   cursor: pointer;
   width: 220px;
   height: 400px;
 }
-
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 1rem;
+}
+.main .image {
+  margin-top: 2rem;
+}
+.main .image img {
+  width: 150px;
+}
+.main .title {
+  font-size: 35px;
+  margin-top: 8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
 .navigation-wrapper {
   position: relative;
 }
@@ -108,38 +184,101 @@ export default {
 .dots {
   display: flex;
   justify-content: center;
+  margin-top: 3rem;
 }
-
-.dot {
-  border: none;
-  width: 20px;
-  height: 20px;
-  border: 3px solid #2699fb;
-  background: transparent;
-  border-radius: 50%;
-  margin: 3rem 10px;
-  padding: 5px;
-  cursor: pointer;
+button {
+  background: none;
+  border: 0;
+  box-sizing: border-box;
+  margin: 1em;
+  padding: 1em 2em;
+  color: #2699fb;
+  font-size: inherit;
+  font-weight: 700;
+  position: relative;
+  vertical-align: middle;
 }
-
-.dot:focus {
-  border: 3px solid #2699fb;
-}
-
-.dot.active {
-  background: transparent;
-  border: 3px solid #2699fb;
-}
-
-.arrow {
-  width: 30px;
-  height: 30px;
+button::before,
+button::after {
+  box-sizing: inherit;
+  content: "";
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  fill: #fff;
-  cursor: pointer;
+  width: 100%;
+  height: 100%;
+}
+.spin {
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  display: flex;
+  font-weight: 300;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.spin:hover {
+  color: #2699fb;
+}
+.spin::before,
+.spin::after {
+  top: 0;
+  left: 0;
+}
+.spin::before {
+  border: 3px solid transparent;
+  border-radius: 50%;
+}
+.spin:hover::before {
+  border-top-color: #e6f4ff;
+  border-right-color: #2699fb;
+  border-radius: 50%;
+  transform: rotate(-45deg);
+  border-bottom-color: #e6f4ff;
+  transition: border-top-color 0.15s linear,
+    border-right-color 0.15s linear 0.1s, border-bottom-color 0.15s linear 0.2s;
+}
+.spin:focus::before {
+  border-top-color: #e6f4ff;
+  border-right-color: #2699fb;
+  border-radius: 50%;
+  transform: rotate(-45deg);
+  border-bottom-color: #e6f4ff;
+}
+.spin:active::before {
+  border-top-color: #e6f4ff;
+  border-right-color: #2699fb;
+  border-radius: 50%;
+  transform: rotate(-45deg);
+  border-bottom-color: #e6f4ff;
+}
+.spin::after {
+  border: 0 solid transparent;
+  border-radius: 50%;
+}
+.spin:hover::after {
+  border-top: 3px solid #e6f4ff;
+  border-left-width: 3px;
+  border-right-width: 3px;
+  transform: rotate(225deg);
+  transition: transform 0.4s linear 0s, border-left-width 0s linear 0.35s;
+}
+.spin:focus::after {
+  border-top: 3px solid #e6f4ff;
+  border-left-width: 3px;
+  border-right-width: 3px;
+  transform: rotate(225deg);
+}
+.spin:active::after {
+  border-top: 3px solid #e6f4ff;
+  border-left-width: 3px;
+  border-right-width: 3px;
+  transform: rotate(225deg);
+}
+
+@media only screen and (max-width: 430px) {
+  .dots {
+    display: none;
+  }
 }
 </style>
 

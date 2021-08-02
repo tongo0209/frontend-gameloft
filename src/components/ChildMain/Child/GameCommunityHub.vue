@@ -237,8 +237,11 @@ export default {
 }
 .top {
   padding: 0;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 328px;
+  padding-right: 328px;
+}
+.title {
+  text-transform: uppercase;
 }
 .title,
 .title__child {

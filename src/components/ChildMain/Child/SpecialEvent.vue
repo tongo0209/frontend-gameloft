@@ -4,9 +4,10 @@
     <div class="title__child">
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident
       aliquid quisquam doloremque modi sapiente! Ex obcaecati soluta assumenda
+      ratione ad fugiat enim autem aliquid, Ex obcaecati soluta assumenda
       ratione ad fugiat enim autem aliquid,
     </div>
-    <SliderEvent style="display: none" />
+    <SliderEvent />
   </div>
 </template>
 
@@ -38,13 +39,15 @@ export default {
 }
 .title__child {
   font-size: 15px;
+  width: 80%;
   font-weight: 300;
-  margin-bottom: 1rem;
+  margin-bottom: 5rem;
 }
 
 @media only screen and (max-width: 430px) {
   .main {
     padding: 20px 20px;
+    height: 80vh;
   }
   .title,
   .title__child {
